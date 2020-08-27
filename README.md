@@ -19,10 +19,15 @@ ngSwitch
 Syntax
 ========
 <container_element [ngSwitch]="switch_expression">
+
     <inner_element *ngSwitchCase="match_expresson_1">...</inner_element>
+    
     <inner_element *ngSwitchCase="match_expresson_2">...</inner_element>
+    
     <inner_element *ngSwitchCase="match_expresson_3">...</inner_element>
+    
     <inner_element *ngSwitchDefault>...</element>
+    
 </container_element>
 
 
