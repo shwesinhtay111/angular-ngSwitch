@@ -1,12 +1,19 @@
 ngSwitch
 =========
 -allow to add or remove DOM elements
+
 -work with ngSwitchcase & ngSwitchDefault
+
 -similar to switch statement of js
+
 -allow to display one or more DOM elements based on some pre-defined conditon
+
 -place ngSwitchCase & ngSwitchDefault inside the ngSwitch directive
+
 -Angular uses loose equality checks to compare the ngSwitchCase expression with the ngSwitch expression. This means that the empty string "" matches 0
+
 -share the template between multiple ngSwitchCase using the ngTemplateOutlet
+
 -can place one or more than one ngSwitchDefault anywhere inside the container element and not necessarily at the bottom.
 
 Syntax
@@ -23,10 +30,15 @@ In app.module.ts
 ===================
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
+
     imports: [
-         FormsModule      
+    
+         FormsModule    
+         
     ]
+    
 
 
 # NgswtichTest
